@@ -53,7 +53,7 @@ You will find the Extent report here:
 
 # Sauce Demo
 
-![Sauce Demo Logo](https://www.saucedemo.com/v1/img/Login_Bot_graphic.png)
+![Sauce Demo Logo](images/Login_Bot_graphic.png)
 
 ## Table of Contents
 
