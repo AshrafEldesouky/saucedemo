@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="browser" value="chrome-headless"/>
+
+    <test name="Complete and finish scenario of Getting Random product with price">
+        <classes>
+            <class name="Testcases.TC01_Login">
+                <methods>
+                    <include name="LoginWithValidData_P"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.TC2_Products">
+                <methods>
+                    <include name="Check_Click_AddCartBtn_Sauce_Labs_Bike_Light"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.TC03_YourCartPage">
+                <methods>
+                    <include name="Click_CheckOutFromYourCart"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.TC04_CheckoutYourInformation">
+                <methods>
+                    <include name="CheckoutYourInformation"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.TC05_CheckoutOverview">
+                <methods>
+                    <include name="CheckoutOverview"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.TC06_CheckOutComplete">
+                <methods>
+                    <include name="Check_ThanksMessage_Isavailable"/>
+                </methods>
+            </class>
+
+
+
+        </classes>
+    </test>
+
+
+</suite>

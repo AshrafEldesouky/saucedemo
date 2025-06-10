@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome-headless"/>
+  <test thread-count="5" name="Complete and finish scenario of Getting Random product with price(failed)">
+    <classes>
+      <class name="Testcases.TC2_Products">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="quit"/>
+          <include name="defineSuiteElements"/>
+          <include name="Check_Click_AddCartBtn_Sauce_Labs_Bike_Light"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC2_Products -->
+      <class name="Testcases.TC04_CheckoutYourInformation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="CheckoutYourInformation"/>
+          <include name="quit"/>
+          <include name="defineSuiteElements"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC04_CheckoutYourInformation -->
+      <class name="Testcases.TC03_YourCartPage">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="Click_CheckOutFromYourCart"/>
+          <include name="defineSuiteElements"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC03_YourCartPage -->
+      <class name="Testcases.TC06_CheckOutComplete">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="quit"/>
+          <include name="defineSuiteElements"/>
+          <include name="Check_ThanksMessage_Isavailable"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC06_CheckOutComplete -->
+      <class name="Testcases.TC01_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="quit"/>
+          <include name="defineSuiteElements"/>
+          <include name="LoginWithValidData_P"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC01_Login -->
+      <class name="Testcases.TC05_CheckoutOverview">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="quit"/>
+          <include name="defineSuiteElements"/>
+          <include name="CheckoutOverview"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Testcases.TC05_CheckoutOverview -->
+    </classes>
+  </test> <!-- Complete and finish scenario of Getting Random product with price(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
